@@ -47,10 +47,14 @@ body {
     align-items: center;
     width: 20%;
 }
+.cac-logo {
+    width: 95px;
+}
 .header-title {
     color: var(--light-text);
     font-family: 'Roboto', sans-serif;
-    margin-left: -40px;
+    font-size: 1.3em;
+    margin-left: -10px;
 }
 .header-links {
     display: flex;
@@ -669,7 +673,7 @@ body {
     .header-main {
         flex-direction: column;
         justify-content: center;
-        height: 30%;
+        height: 35%;
       }
     .header-main-pages {
         flex-direction: column;
@@ -682,6 +686,9 @@ body {
         justify-content: center;
         margin: auto 1rem;
       }
+    .header-title {
+        margin-left: -80px;
+    }
     .header-links {
         flex-direction: column;
         height: auto;
@@ -794,15 +801,18 @@ body {
     
     /* Header Nav */
     .header-pages {
-        height: 56vh;
+        height: 65vh;
     }
     .cac-logo {
         width: 100px;
     }
+    .header-title {
+        margin-left: -80px;
+    }
     .header-main {
         flex-direction: column;
         justify-content: center;
-        height: 28%;
+        height: 32%;
       }
     .header-main-pages {
         flex-direction: column;
@@ -831,10 +841,10 @@ body {
       }
       /* Hero */
     .hero-container {
-        height: 72%;
+        height: 68%;
       }
     .hero-container-tyc {
-        height: 44%;
+        height: 50%;
       }
     .hero-container-tickets {
         height: 50%;
@@ -889,7 +899,11 @@ body {
     .bsas-image {
         height: 50vh;
         margin-bottom: 2em;
-      }
+    }
+    .bsas-image-u {
+        align-content: center;
+        max-width: initial;
+    }
     .city-container {
         text-align: center;
         margin: 3em 3em;
